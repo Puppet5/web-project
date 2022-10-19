@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>L03. Advanced HTML</title>
+</head>
+<body>
+<h1>Breakfast List</h1>
+
+<table border="3" width="40%">
+  <caption>Fruit Juice Drinks</caption>
+  <tr>
+    <th> </th>
+    <th>Apple</th>
+    <th>Orange</th>
+    <th>Strawberry</th>
+  </tr>
+
+  <tr>
+    <th>Breakfast</th>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+
+  <tr>
+    <th>Lunch</th>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+
+  <tr>
+    <th>Dinner</th>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+
+</table>
+
+<br>
+<br>
+
+<h2>Registration form</h2>
+<p>Please fill in the form if you wish to register</p>
+<form action="/reg_action.php"  method="post">
+  <table border="3" width="45%">
+    <tr>
+      <th>First Name</th>
+      <td><input type="text"></td>
+    </tr>
+
+    <tr>
+      <th>Last Name</th>
+      <td><input type="text"></td>
+    </tr>
+
+    <tr>
+      <th>Email</th>
+      <td><input type="text"></td>
+    </tr>
+
+    <tr>
+      <th>Age</th>
+      <td><input type="text"></td>
+    </tr>
+
+    <tr>
+      <th>Gender</th>
+      <td><input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female</td>
+
+
+    </tr>
+
+    <tr>
+      <th>Major</th>
+      <td><input type="radio" name="major" value="Software Engineering">Software Engineering
+        <input type="radio" name="major" value="Network Engineering">Network Engineering and Security</td>
+    </tr>
+
+    <tr>
+      <th>What are your favorite courses</th>
+      <td><input type="radio" name="course" value="Web Design">Web Design
+        <input type="radio" name="course" value="Back End Development">Back End Development
+        <input type="radio" name="course" value="Programming in java">Programming in java
+        <input type="radio" name="course" value="Security">Security</td>
+    </tr>
+
+    <tr>
+      <th></th>
+      <td><input type="submit"></td>
+    </tr>
+
+  </table>
+</form>
+
+</body>
+</html>
